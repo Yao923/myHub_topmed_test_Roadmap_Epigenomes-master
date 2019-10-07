@@ -1,0 +1,519 @@
+################################################
+track Enhancer_tracks
+type bigWig
+compositeTrack off
+shortLabel Enhancer_tracks
+longLabel Enhancer_tracks_signal
+maxHeightPixels 150:30:11
+visibility full
+priority 1
+
+track Aorta_Enhancer_H3K27ac
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K27ac/E065-H3K27ac.imputed.pval.signal.bigwig
+shortLabel Aorta_Enhancer_H3K27ac
+longLabel Aorta_Enhancer_H3K27ac
+parent Enhancer_tracks
+type bigWig
+color 0,0,255
+
+track Right_Atrium_Enhancer_H3K27ac
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K27ac/E104-H3K27ac.imputed.pval.signal.bigwig
+shortLabel Right_Atrium_Enhancer_H3K27ac
+longLabel Right_Atrium_Enhancer_H3K27ac
+parent Enhancer_tracks
+type bigWig
+color 0,0,255
+
+track Right_Ventricle_Enhancer_H3K27ac
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K27ac/E105-H3K27ac.imputed.pval.signal.bigwig
+shortLabel Right_Ventricle_Enhancer_H3K27ac
+longLabel Right_Ventricle_Enhancer_H3K27ac
+parent Enhancer_tracks
+type bigWig
+color 0,0,255
+
+track Left_Ventricle_Enhancer_H3K27ac
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K27ac/E095-H3K27ac.imputed.pval.signal.bigwig
+shortLabel Left_Ventricle_Enhancer_H3K27ac
+longLabel Left_Ventricle_Enhancer_H3K27ac
+parent Enhancer_tracks
+type bigWig
+color 0,0,255
+
+track Aorta_Enhancer_H3K4me1
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K4me1/E065-H3K4me1.imputed.pval.signal.bigwig
+shortLabel Aorta_Enhancer_H3K4me1
+longLabel Aorta_Enhancer_H3K4me1
+parent Enhancer_tracks
+type bigWig
+color 0,0,255
+
+track Right_Atrium_Enhancer_H3K4me1
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K4me1/E104-H3K4me1.imputed.pval.signal.bigwig
+shortLabel Right_Atrium_Enhancer_H3K4me1
+longLabel Right_Atrium_Enhancer_H3K4me1
+parent Enhancer_tracks
+type bigWig
+color 0,0,255
+
+track Right_Ventricle_Enhancer_H3K4me1
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K4me1/E105-H3K4me1.imputed.pval.signal.bigwig
+shortLabel Right_Ventricle_Enhancer_H3K4me1
+longLabel Right_Ventricle_Enhancer_H3K4me1
+parent Enhancer_tracks
+type bigWig
+color 0,0,255
+
+track Left_Ventricle_Enhancer_H3K4me1
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K4me1/E095-H3K4me1.imputed.pval.signal.bigwig
+shortLabel Left_Ventricle_Enhancer_H3K4me1
+longLabel Left_Ventricle_Enhancer_H3K4me1
+parent Enhancer_tracks
+type bigWig
+color 0,0,255
+
+track Brain_hippocampus_middle_Enhancer_H3K27ac
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K27ac/E071-H3K27ac.imputed.pval.signal.bigwig
+shortLabel Brain_hippocampus_middle_Enhancer_H3K27ac
+longLabel Brain_hippocampus_middle_Enhancer_H3K27ac
+parent Enhancer_tracks
+type bigWig
+color 0,0,255
+
+track Brain_substantia_nigra_Enhancer_H3K27ac
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K27ac/E074-H3K27ac.imputed.pval.signal.bigwig
+shortLabel Brain_substantia_nigra_Enhancer_H3K27ac
+longLabel Brain_substantia_nigra_Enhancer_H3K27ac
+parent Enhancer_tracks
+type bigWig
+color 0,0,255
+
+track Brain_anterior_caudate_Enhancer_H3K27ac
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K27ac/E068-H3K27ac.imputed.pval.signal.bigwig
+shortLabel Brain_anterior_caudate_Enhancer_H3K27ac
+longLabel Brain_anterior_caudate_Enhancer_H3K27ac
+parent Enhancer_tracks
+type bigWig
+color 0,0,255
+
+track Brain_cingulate_gyrus_Enhancer_H3K27ac
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K27ac/E069-H3K27ac.imputed.pval.signal.bigwig
+shortLabel Brain_cingulate_gyrus_Enhancer_H3K27ac
+longLabel Brain_cingulate_gyrus_Enhancer_H3K27ac
+parent Enhancer_tracks
+type bigWig
+color 0,0,255
+
+track Brain_inferior_temporal_lobe_Enhancer_H3K27ac
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K27ac/E072-H3K27ac.imputed.pval.signal.bigwig
+shortLabel Brain_inferior_temporal_lobe_Enhancer_H3K27ac
+longLabel Brain_inferior_temporal_lobe_Enhancer_H3K27ac
+parent Enhancer_tracks
+type bigWig
+color 0,0,255
+
+track Brain_angular_gyrus_Enhancer_H3K27ac
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K27ac/E067-H3K27ac.imputed.pval.signal.bigwig
+shortLabel Brain_angular_gyrus_Enhancer_H3K27ac
+longLabel Brain_angular_gyrus_Enhancer_H3K27ac
+parent Enhancer_tracks
+type bigWig
+color 0,0,255
+
+track Brain_dorsolateral_prefrontal_cortex_Enhancer_H3K27ac
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K27ac/E073-H3K27ac.imputed.pval.signal.bigwig
+shortLabel Brain_dorsolateral_prefrontal_cortex_Enhancer_H3K27ac
+longLabel Brain_dorsolateral_prefrontal_cortex_Enhancer_H3K27ac
+parent Enhancer_tracks
+type bigWig
+color 0,0,255
+
+track Brain_germinal_matrix_Enhancer_H3K27ac
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K27ac/E070-H3K27ac.imputed.pval.signal.bigwig
+shortLabel Brain_germinal_matrix_Enhancer_H3K27ac
+longLabel Brain_germinal_matrix_Enhancer_H3K27ac
+parent Enhancer_tracks
+type bigWig
+color 0,0,255
+
+track Brain_hippocampus_middle_Enhancer_H3K4me1
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K4me1/E071-H3K4me1.imputed.pval.signal.bigwig
+shortLabel Brain_hippocampus_middle_Enhancer_H3K4me1
+longLabel Brain_hippocampus_middle_Enhancer_H3K4me1
+parent Enhancer_tracks
+type bigWig
+color 0,0,255
+
+track Brain_substantia_nigra_Enhancer_H3K4me1
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K4me1/E074-H3K4me1.imputed.pval.signal.bigwig
+shortLabel Brain_substantia_nigra_Enhancer_H3K4me1
+longLabel Brain_substantia_nigra_Enhancer_H3K4me1
+parent Enhancer_tracks
+type bigWig
+color 0,0,255
+
+track Brain_anterior_caudate_Enhancer_H3K4me1
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K4me1/E068-H3K4me1.imputed.pval.signal.bigwig
+shortLabel Brain_anterior_caudate_Enhancer_H3K4me1
+longLabel Brain_anterior_caudate_Enhancer_H3K4me1
+parent Enhancer_tracks
+type bigWig
+color 0,0,255
+
+track Brain_cingulate_gyrus_Enhancer_H3K4me1
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K4me1/E069-H3K4me1.imputed.pval.signal.bigwig
+shortLabel Brain_cingulate_gyrus_Enhancer_H3K4me1
+longLabel Brain_cingulate_gyrus_Enhancer_H3K4me1
+parent Enhancer_tracks
+type bigWig
+color 0,0,255
+
+track Brain_inferior_temporal_lobe_Enhancer_H3K4me1
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K4me1/E072-H3K4me1.imputed.pval.signal.bigwig
+shortLabel Brain_inferior_temporal_lobe_Enhancer_H3K4me1
+longLabel Brain_inferior_temporal_lobe_Enhancer_H3K4me1
+parent Enhancer_tracks
+type bigWig
+color 0,0,255
+
+track Brain_angular_gyrus_Enhancer_H3K4me1
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K4me1/E067-H3K4me1.imputed.pval.signal.bigwig
+shortLabel Brain_angular_gyrus_Enhancer_H3K4me1
+longLabel Brain_angular_gyrus_Enhancer_H3K4me1
+parent Enhancer_tracks
+type bigWig
+color 0,0,255
+
+track Brain_dorsolateral_prefrontal_cortex_Enhancer_H3K4me1
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K4me1/E073-H3K4me1.imputed.pval.signal.bigwig
+shortLabel Brain_dorsolateral_prefrontal_cortex_Enhancer_H3K4me1
+longLabel Brain_dorsolateral_prefrontal_cortex_Enhancer_H3K4me1
+parent Enhancer_tracks
+type bigWig
+color 0,0,255
+
+track Brain_germinal_matrix_Enhancer_H3K4me1
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K4me1/E070-H3K4me1.imputed.pval.signal.bigwig
+shortLabel Brain_germinal_matrix_Enhancer_H3K4me1
+longLabel Brain_germinal_matrix_Enhancer_H3K4me1
+parent Enhancer_tracks
+type bigWig
+color 0,0,255
+
+################################################
+track Repressor_tracks
+type bigWig
+compositeTrack off
+shortLabel Repressor_tracks
+longLabel Repressor_tracks_signal
+maxHeightPixels 150:30:11
+visibility full
+priority 2
+
+track Aorta_Repressor_H3K27me3
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K27me3/E065-H3K27me3.imputed.pval.signal.bigwig
+shortLabel Aorta_Repressor_H3K27me3
+longLabel Aorta_Repressor_H3K27me3
+parent Repressor_tracks
+type bigWig
+color 255,0,0
+
+track Right_Atrium_Repressor_H3K27me3
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K27me3/E104-H3K27me3.imputed.pval.signal.bigwig
+shortLabel Right_Atrium_Repressor_H3K27me3
+longLabel Right_Atrium_Repressor_H3K27me3
+parent Repressor_tracks
+type bigWig
+color 255,0,0
+
+track Right_Ventricle_Repressor_H3K27me3
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K27me3/E105-H3K27me3.imputed.pval.signal.bigwig
+shortLabel Right_Ventricle_Repressor_H3K27me3
+longLabel Right_Ventricle_Repressor_H3K27me3
+parent Repressor_tracks
+type bigWig
+color 255,0,0
+
+track Left_Ventricle_Repressor_H3K27me3
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K27me3/E095-H3K27me3.imputed.pval.signal.bigwig
+shortLabel Left_Ventricle_Repressor_H3K27me3
+longLabel Left_Ventricle_Repressor_H3K27me3
+parent Repressor_tracks
+type bigWig
+color 255,0,0
+
+track Brain_hippocampus_middle_Repressor_H3K27me3
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K27me3/E071-H3K27me3.imputed.pval.signal.bigwig
+shortLabel Brain_hippocampus_middle_Repressor_H3K27me3
+longLabel Brain_hippocampus_middle_Repressor_H3K27me3
+parent Repressor_tracks
+type bigWig
+color 255,0,0
+
+track Brain_substantia_nigra_Repressor_H3K27me3
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K27me3/E074-H3K27me3.imputed.pval.signal.bigwig
+shortLabel Brain_substantia_nigra_Repressor_H3K27me3
+longLabel Brain_substantia_nigra_Repressor_H3K27me3
+parent Repressor_tracks
+type bigWig
+color 255,0,0
+
+track Brain_anterior_caudate_Repressor_H3K27me3
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K27me3/E068-H3K27me3.imputed.pval.signal.bigwig
+shortLabel Brain_anterior_caudate_Repressor_H3K27me3
+longLabel Brain_anterior_caudate_Repressor_H3K27me3
+parent Repressor_tracks
+type bigWig
+color 255,0,0
+
+track Brain_cingulate_gyrus_Repressor_H3K27me3
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K27me3/E069-H3K27me3.imputed.pval.signal.bigwig
+shortLabel Brain_cingulate_gyrus_Repressor_H3K27me3
+longLabel Brain_cingulate_gyrus_Repressor_H3K27me3
+parent Repressor_tracks
+type bigWig
+color 255,0,0
+
+track Brain_inferior_temporal_lobe_Repressor_H3K27me3
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K27me3/E072-H3K27me3.imputed.pval.signal.bigwig
+shortLabel Brain_inferior_temporal_lobe_Repressor_H3K27me3
+longLabel Brain_inferior_temporal_lobe_Repressor_H3K27me3
+parent Repressor_tracks
+type bigWig
+color 255,0,0
+
+track Brain_angular_gyrus_Repressor_H3K27me3
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K27me3/E067-H3K27me3.imputed.pval.signal.bigwig
+shortLabel Brain_angular_gyrus_Repressor_H3K27me3
+longLabel Brain_angular_gyrus_Repressor_H3K27me3
+parent Repressor_tracks
+type bigWig
+color 255,0,0
+
+track Brain_dorsolateral_prefrontal_cortex_Repressor_H3K27me3
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K27me3/E073-H3K27me3.imputed.pval.signal.bigwig
+shortLabel Brain_dorsolateral_prefrontal_cortex_Repressor_H3K27me3
+longLabel Brain_dorsolateral_prefrontal_cortex_Repressor_H3K27me3
+parent Repressor_tracks
+type bigWig
+color 255,0,0
+
+track Brain_germinal_matrix_Repressor_H3K27me3
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K27me3/E070-H3K27me3.imputed.pval.signal.bigwig
+shortLabel Brain_germinal_matrix_Repressor_H3K27me3
+longLabel Brain_germinal_matrix_Repressor_H3K27me3
+parent Repressor_tracks
+type bigWig
+color 255,0,0
+
+################################################
+track Transcriptn_tracks
+type bigWig
+compositeTrack off
+shortLabel Transcriptn_tracks
+longLabel Transcriptn_tracks_signal
+maxHeightPixels 150:30:11
+visibility full
+priority 3
+
+track Aorta_Transcriptn_H3K36me3
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K36me3/E065-H3K36me3.imputed.pval.signal.bigwig
+shortLabel Aorta_Transcriptn_H3K36me3
+longLabel Aorta_Transcriptn_H3K36me3
+parent Transcriptn_tracks
+type bigWig
+color 255,165,0
+
+track Right_Atrium_Transcriptn_H3K36me3
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K36me3/E104-H3K36me3.imputed.pval.signal.bigwig
+shortLabel Right_Atrium_Transcriptn_H3K36me3
+longLabel Right_Atrium_Transcriptn_H3K36me3
+parent Transcriptn_tracks
+type bigWig
+color 255,165,0
+
+track Right_Ventricle_Transcriptn_H3K36me3
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K36me3/E105-H3K36me3.imputed.pval.signal.bigwig
+shortLabel Right_Ventricle_Transcriptn_H3K36me3
+longLabel Right_Ventricle_Transcriptn_H3K36me3
+parent Transcriptn_tracks
+type bigWig
+color 255,165,0
+
+track Left_Ventricle_Transcriptn_H3K36me3
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K36me3/E095-H3K36me3.imputed.pval.signal.bigwig
+shortLabel Left_Ventricle_Transcriptn_H3K36me3
+longLabel Left_Ventricle_Transcriptn_H3K36me3
+parent Transcriptn_tracks
+type bigWig
+color 255,165,0
+
+track Brain_hippocampus_middle_Transcriptn_H3K36me3
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K36me3/E071-H3K36me3.imputed.pval.signal.bigwig
+shortLabel Brain_hippocampus_middle_Transcriptn_H3K36me3
+longLabel Brain_hippocampus_middle_Transcriptn_H3K36me3
+parent Transcriptn_tracks
+type bigWig
+color 255,165,0
+
+track Brain_substantia_nigra_Transcriptn_H3K36me3
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K36me3/E074-H3K36me3.imputed.pval.signal.bigwig
+shortLabel Brain_substantia_nigra_Transcriptn_H3K36me3
+longLabel Brain_substantia_nigra_Transcriptn_H3K36me3
+parent Transcriptn_tracks
+type bigWig
+color 255,165,0
+
+track Brain_anterior_caudate_Transcriptn_H3K36me3
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K36me3/E068-H3K36me3.imputed.pval.signal.bigwig
+shortLabel Brain_anterior_caudate_Transcriptn_H3K36me3
+longLabel Brain_anterior_caudate_Transcriptn_H3K36me3
+parent Transcriptn_tracks
+type bigWig
+color 255,165,0
+
+track Brain_cingulate_gyrus_Transcriptn_H3K36me3
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K36me3/E069-H3K36me3.imputed.pval.signal.bigwig
+shortLabel Brain_cingulate_gyrus_Transcriptn_H3K36me3
+longLabel Brain_cingulate_gyrus_Transcriptn_H3K36me3
+parent Transcriptn_tracks
+type bigWig
+color 255,165,0
+
+track Brain_inferior_temporal_lobe_Transcriptn_H3K36me3
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K36me3/E072-H3K36me3.imputed.pval.signal.bigwig
+shortLabel Brain_inferior_temporal_lobe_Transcriptn_H3K36me3
+longLabel Brain_inferior_temporal_lobe_Transcriptn_H3K36me3
+parent Transcriptn_tracks
+type bigWig
+color 255,165,0
+
+track Brain_angular_gyrus_Transcriptn_H3K36me3
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K36me3/E067-H3K36me3.imputed.pval.signal.bigwig
+shortLabel Brain_angular_gyrus_Transcriptn_H3K36me3
+longLabel Brain_angular_gyrus_Transcriptn_H3K36me3
+parent Transcriptn_tracks
+type bigWig
+color 255,165,0
+
+track Brain_dorsolateral_prefrontal_cortex_Transcriptn_H3K36me3
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K36me3/E073-H3K36me3.imputed.pval.signal.bigwig
+shortLabel Brain_dorsolateral_prefrontal_cortex_Transcriptn_H3K36me3
+longLabel Brain_dorsolateral_prefrontal_cortex_Transcriptn_H3K36me3
+parent Transcriptn_tracks
+type bigWig
+color 255,165,0
+
+track Brain_germinal_matrix_Transcriptn_H3K36me3
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K36me3/E070-H3K36me3.imputed.pval.signal.bigwig
+shortLabel Brain_germinal_matrix_Transcriptn_H3K36me3
+longLabel Brain_germinal_matrix_Transcriptn_H3K36me3
+parent Transcriptn_tracks
+type bigWig
+color 255,165,0
+
+################################################
+track DHS_tracks
+type bigWig
+compositeTrack off
+shortLabel DHS_tracks
+longLabel DHS_tracks_signal
+maxHeightPixels 150:30:11
+visibility full
+priority 4
+
+track Aorta_DHS_DNase
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/DNase/E065-DNase.imputed.pval.signal.bigwig
+shortLabel Aorta_DHS_DNase
+longLabel Aorta_DHS_DNase
+parent DHS_tracks
+type bigWig
+color 0,0,128
+
+track Right_Atrium_DHS_DNase
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/DNase/E104-DNase.imputed.pval.signal.bigwig
+shortLabel Right_Atrium_DHS_DNase
+longLabel Right_Atrium_DHS_DNase
+parent DHS_tracks
+type bigWig
+color 0,0,128
+
+track Right_Ventricle_DHS_DNase
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/DNase/E105-DNase.imputed.pval.signal.bigwig
+shortLabel Right_Ventricle_DHS_DNase
+longLabel Right_Ventricle_DHS_DNase
+parent DHS_tracks
+type bigWig
+color 0,0,128
+
+track Left_Ventricle_DHS_DNase
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/DNase/E095-DNase.imputed.pval.signal.bigwig
+shortLabel Left_Ventricle_DHS_DNase
+longLabel Left_Ventricle_DHS_DNase
+parent DHS_tracks
+type bigWig
+color 0,0,128
+
+track Brain_hippocampus_middle_DHS_DNase
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/DNase/E071-DNase.imputed.pval.signal.bigwig
+shortLabel Brain_hippocampus_middle_DHS_DNase
+longLabel Brain_hippocampus_middle_DHS_DNase
+parent DHS_tracks
+type bigWig
+color 0,0,128
+
+track Brain_substantia_nigra_DHS_DNase
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/DNase/E074-DNase.imputed.pval.signal.bigwig
+shortLabel Brain_substantia_nigra_DHS_DNase
+longLabel Brain_substantia_nigra_DHS_DNase
+parent DHS_tracks
+type bigWig
+color 0,0,128
+
+track Brain_anterior_caudate_DHS_DNase
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/DNase/E068-DNase.imputed.pval.signal.bigwig
+shortLabel Brain_anterior_caudate_DHS_DNase
+longLabel Brain_anterior_caudate_DHS_DNase
+parent DHS_tracks
+type bigWig
+color 0,0,128
+
+track Brain_cingulate_gyrus_DHS_DNase
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/DNase/E069-DNase.imputed.pval.signal.bigwig
+shortLabel Brain_cingulate_gyrus_DHS_DNase
+longLabel Brain_cingulate_gyrus_DHS_DNase
+parent DHS_tracks
+type bigWig
+color 0,0,128
+
+track Brain_inferior_temporal_lobe_DHS_DNase
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/DNase/E072-DNase.imputed.pval.signal.bigwig
+shortLabel Brain_inferior_temporal_lobe_DHS_DNase
+longLabel Brain_inferior_temporal_lobe_DHS_DNase
+parent DHS_tracks
+type bigWig
+color 0,0,128
+
+track Brain_angular_gyrus_DHS_DNase
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/DNase/E067-DNase.imputed.pval.signal.bigwig
+shortLabel Brain_angular_gyrus_DHS_DNase
+longLabel Brain_angular_gyrus_DHS_DNase
+parent DHS_tracks
+type bigWig
+color 0,0,128
+
+track Brain_dorsolateral_prefrontal_cortex_DHS_DNase
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/DNase/E073-DNase.imputed.pval.signal.bigwig
+shortLabel Brain_dorsolateral_prefrontal_cortex_DHS_DNase
+longLabel Brain_dorsolateral_prefrontal_cortex_DHS_DNase
+parent DHS_tracks
+type bigWig
+color 0,0,128
+
+track Brain_germinal_matrix_DHS_DNase
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/DNase/E070-DNase.imputed.pval.signal.bigwig
+shortLabel Brain_germinal_matrix_DHS_DNase
+longLabel Brain_germinal_matrix_DHS_DNase
+parent DHS_tracks
+type bigWig
+color 0,0,128

@@ -1,0 +1,5 @@
+hub TOPMed_stroke_epigenomes
+shortLabel TOPMed_stroke_epigenomes
+longLabel TOPMed_stroke_epigenomes
+genomesFile genomes.txt
+email huyao923@gmail.com
